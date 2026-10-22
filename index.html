@@ -1,0 +1,370 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M Ivan Pramuda | Portofolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="header">
+        <nav class="nav container">
+            <a class="logo" href="#home">ivan<span>.</span></a>
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Buka menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#qualification">qualification</a></li>
+                <li><a href="#skills">skill</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero container" id="home">
+
+            <div class="social-links">
+                <a href="https://www.instagram.com/ivan_prmda/" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://github.com/IvanPramuda" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+
+            <div class="hero-copy">
+                <h1>M Ivan Pramuda</h1>
+
+                <p class="intro">
+                     Interested in web development and computer vision,
+                     with experience in building web-based projects and
+                     object detection applications.
+                </p>
+
+                <a class="button" href="#about">
+                    About
+                    <i class="fa-regular fa-paper-plane"></i>
+                </a>
+            </div>
+
+            <div class="hero-photo">
+                <div class="photo-shape">
+                    <img src="ivan.jpeg" alt="Foto M Ivan Pramuda">
+                </div>
+            </div>
+
+            <a class="scroll-hint" href="#about">
+                <span class="mouse-icon"></span>
+                Scroll Down
+            </a>
+
+        </section>
+
+       
+
+<!-- ABOUT ME -->
+<section class="section container" id="about">
+    <div class="section-heading">
+        <p class="eyebrow">ABOUT ME</p>
+        <h2>Get to Know Me</h2>
+        <p>A little introduction about myself</p>
+    </div>
+
+    <div class="about-content">
+        <div class="about-text">
+            <h3>Hi, I'm Ivan.</h3>
+            <p>
+                I am an Informatics Engineering graduate from Universitas Malikussaleh with an interest in web development and artificial intelligence. I am familiar with HTML, JavaScript, Python, Visual Studio Code, Microsoft Office, and Canva. I enjoy learning new things, pay attention to detail, and have good teamwork and communication skills.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<!-- QUALIFICATION -->
+<section class="section container" id="qualification">
+    <div class="section-heading">
+        <p class="eyebrow">MY BACKGROUND</p>
+        <h2>Qualification</h2>
+        <p>My Personal Journey</p>
+    </div>
+
+    <div class="qualification-tabs">
+        <button class="qualification-tab active" data-tab="education">
+            Education
+        </button>
+        <button class="qualification-tab" data-tab="experience">
+            Experience
+        </button>
+    </div>
+
+    <div class="qualification-timeline" id="education">
+        <article class="timeline-entry">
+            <div class="timeline-content">
+                <h3>Bachelor's Degree</h3>
+                <p>Universitas Malikussaleh</p>
+                <span class="timeline-date">2021 – 2026</span>
+            </div>
+        </article>
+
+        <article class="timeline-entry">
+            <div class="timeline-content">
+                <h3>High School</h3>
+                <p>SMK N 2 Langsa</p>
+                <span class="timeline-date">2018 – 2021</span>
+            </div>
+        </article>
+    </div>
+
+    <div class="qualification-timeline" id="experience" hidden>
+        <article class="timeline-entry">
+            <div class="timeline-content">
+                <h3>Automated Oil Palm Pest Detection</h3>
+                <p>Final Project · Computer Vision</p>
+                <span class="timeline-date">Python · YOLOv7</span>
+                <a class="text-link"
+                   href="https://github.com/IvanPramuda/Skripsi"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    View Project ↗
+                </a>
+            </div>
+        </article>
+
+        <article class="timeline-entry">
+            <div class="timeline-content">
+                <h3>Teknofokus — Tomato Ripeness Detection</h3>
+                <p>Academic Project · Object Detection</p>
+                <span class="timeline-date">Python · YOLO</span>
+                <a class="text-link"
+                   href="https://github.com/IvanPramuda/Teknofokus"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    View Project ↗
+                </a>
+            </div>
+        </article>
+    </div>
+</section>
+
+
+<!-- MY SKILLS -->
+<section class="section container" id="skills">
+    <div class="section-heading">
+        <h2>Skills</h2>
+        <p>Myskill</p>
+    </div>
+
+    <div class="skills-content">
+        <div class="skills-group">
+            <h3>TECHNICAL SKILLS</h3>
+            <div class="skills-tags">
+                <span class="skill-tag">HTML</span>
+                <span class="skill-tag">CSS</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">YOLOv7</span>
+                <span class="skill-tag">Computer Vision</span>
+                <span class="skill-tag">Web Development</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+        
+<!-- PROJECTS -->
+<section class="section container" id="projects">
+    <div class="section-heading">
+        <h2>Featured Projects</h2>
+        <p>Beberapa proyek yang pernah saya kerjakan</p>
+    </div>
+
+    <div class="project-filters">
+        <button class="filter active" data-filter="all">Semua</button>
+        <button class="filter" data-filter="web">Web</button>
+        <button class="filter" data-filter="ai">AI</button>
+        <button class="filter" data-filter="design">Desain</button>
+    </div>
+
+    <div class="projects-grid">
+
+        <!-- PROJECT 01: SKRIPSI -->
+        <article class="project-card" data-category="ai">
+            <div class="project-number">01</div>
+            <p class="eyebrow">FINAL PROJECT · COMPUTER VISION</p>
+            <h3>Sistem Deteksi Hama Sawit Otomatis</h3>
+            <p>
+                Penelitian skripsi mengenai deteksi objek hama sawit
+                menggunakan YOLOv7 dan Python.
+            </p>
+            <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">YOLOv7</span>
+                <span class="tag">Computer Vision</span>
+            </div>
+            <a
+                href="https://github.com/IvanPramuda/Skripsi"
+                class="project-link"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                View on GitHub <span aria-hidden="true">↗</span>
+            </a>
+        </article>
+
+        <!-- PROJECT 02: TEKNOFOKUS -->
+        <article class="project-card" data-category="ai">
+            <div class="project-number">02</div>
+            <p class="eyebrow">AI · OBJECT DETECTION</p>
+            <h3>Teknofokus — Deteksi Kematangan Tomat</h3>
+            <p>
+                Aplikasi berbasis web untuk proyek deteksi kematangan
+                tomat menggunakan teknologi YOLO.
+            </p>
+            <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">YOLO</span>
+                <span class="tag">Flask / Web</span>
+            </div>
+            <a
+                href="https://github.com/IvanPramuda/Teknofokus"
+                class="project-link"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                View on GitHub <span aria-hidden="true">↗</span>
+            </a>
+        </article>
+
+        <!-- PROJECT 03: RESIDENCE WEBSITE -->
+        <article class="project-card" data-category="web">
+            <div class="project-number">03</div>
+            <p class="eyebrow">WEB DEVELOPMENT</p>
+            <h3>Residence Website</h3>
+            <p>
+                Website residence yang sedang dikembangkan untuk
+                menampilkan informasi dan layanan hunian.
+            </p>
+            <div class="project-tags">
+                <span class="tag">Web Development</span>
+                <span class="tag">In Progress</span>
+            </div>
+            <span class="project-status">Currently in progress</span>
+        </article>
+
+    </div>
+</section>
+
+
+<!-- CONTACT -->
+<section class="section container" id="contact">
+    <div class="section-heading">
+        <p class="eyebrow">CONTACT</p>
+        <h2>Get in Touch</h2>
+        <p>Contact Me</p>
+    </div>
+
+    <div class="contact-container">
+        <div class="contact-left">
+            <h3>Talk to Me</h3>
+
+            <div class="contact-cards">
+                <div class="contact-card">
+                    <span class="contact-icon">✉</span>
+                    <h4>Email</h4>
+                    <p>Ivan01iman@gmail.com</p>
+                    <a href="mailto:ivan01iman@gmail.com">Write Me ↗</a>
+                </div>
+
+                <div class="contact-card">
+                    <span class="contact-icon">☏</span>
+                    <h4>WhatsApp</h4>
+                    <p>082267239069</p>
+                    <a href="https://wa.me/6282267239069"
+                       target="_blank" rel="noopener noreferrer">
+                        Write Me ↗
+                    </a>
+                </div>
+
+                <div class="contact-card">
+                    <span class="contact-icon">in</span>
+                    <h4>LinkedIn</h4>
+                    <p>M Ivan Pramuda</p>
+                    <a href="www.linkedin.com/in/m-ivan-pramuda-999728285"
+                       target="_blank" rel="noopener noreferrer">
+                        Write Me ↗
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-right">
+            <h3>Write Me Your Projects</h3>
+
+            <form class="contact-form"
+                  action="https://formsubmit.co/ivan01iman@gmail.com"
+                  method="POST">
+
+                <input type="hidden" name="_subject"
+                       value="New Portfolio Message">
+
+                <div class="form-group">
+                    <label for="contact-name">Name</label>
+                    <input type="text" id="contact-name"
+                           name="name" placeholder="Insert your name"
+                           required>
+                </div>
+
+                <div class="form-group">
+                    <label for="contact-email">Email</label>
+                    <input type="email" id="contact-email"
+                           name="email" placeholder="Insert your email"
+                           required>
+                </div>
+
+                <div class="form-group">
+                    <label for="contact-project">Project</label>
+                    <textarea id="contact-project" name="message"
+                              placeholder="Tell me about your project"
+                              required></textarea>
+                </div>
+
+                <button type="submit" class="contact-button">
+                    Send Message <span>↗</span>
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+</main>
+
+    <footer class="footer">
+        <a class="logo" href="#home">ivan<span>.</span></a>
+        <p>© <span id="year"></span> M Ivan Pramuda</p>
+        <a href="#home" aria-label="Kembali ke atas">
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
+    </footer>
+
+</body>
+</html>
